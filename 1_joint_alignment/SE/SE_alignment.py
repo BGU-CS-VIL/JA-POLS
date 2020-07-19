@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 import config
 from SE.data_provider import DataProvider
 from SE.graph_manager import GraphManager

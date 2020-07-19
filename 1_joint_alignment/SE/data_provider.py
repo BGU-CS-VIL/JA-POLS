@@ -9,6 +9,10 @@ import config
 class DataProvider:
 
     def __init__(self):
+
+        # create the data folder
+        makedir(config.paths['my_path'] + 'data/')
+
         input_path = '../input/learning/'
         self.feed_path = "SE/tmp_data"
         makedir(self.feed_path)
