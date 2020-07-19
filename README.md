@@ -72,9 +72,9 @@ se = dict(
 Parameters for the spatial transformer net (when estimating the affine transformations):
 ```
 stn = dict(
-    device = '/cpu:0',   # choose from: ['/gpu:0', '/gpu:1', '/cpu:0']
+    device = '/gpu:0',   # choose from: ['/gpu:0', '/gpu:1', '/cpu:0']
     load_model = False,  # 'False' when learning a model from scratch, 'True' when using a trained network's model
-    iter_per_epoch = 1, # number of iterations 
+    iter_per_epoch = 2000, # number of iterations 
     batch_size = 10,
 )
 ```
