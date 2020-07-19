@@ -126,7 +126,7 @@ Files that were prepared in module 1:
 **Local-subspaces learning:**<br />
 Method type of the background learning algorithm, that will run on each local domain:
 ```
-se = dict(
+pols = dict(
     method_type = 'PRPCA',  # choose from: [PCA / RPCA-CANDES / TGA / PRPCA]
 )
 ```
