@@ -43,6 +43,7 @@ class Piecewise_Subspace:
         self.imgs_trans_all = np.zeros((self.N, self.img_emb_sz[0], self.img_emb_sz[1], self.img_sz[2]))
 
         makedir(self.data_path + 'subspaces/')
+        makedir(self.mypath  + '2_learning/BG/alignment_mean/')
 
         print('img_sz: ',self.img_sz)
         print('img_emb_sz: ',self.img_emb_sz)

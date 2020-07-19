@@ -1,4 +1,6 @@
 from __future__ import division, print_function
+import os
+import shutil
 import torch
 import torch.optim as optim
 import torchvision
@@ -13,6 +15,9 @@ def learn_alignment():
     print("Learn alignment prediction...\n")
 
     mypath = config.paths['my_path']
+
+    makedir(mypath + '2_learning/Alignment/models/')
+    makedir(mypath + '2_learning/Alignment/logs/')
 
     print("PyTorch Version: ", torch.__version__)
     print("Torchvision Version: ", torchvision.__version__)
@@ -89,3 +94,12 @@ def learn_alignment():
                        predicted_theta, logs_dir, test_name)
 
     print('\nProcess is done.')
+
+
+def makedir(folder_name):
+    try:
+        if os.path.exists(folder_name) and os.path.isdir(folder_name):
+            shutil.rmtree(folder_name)
+        os.makedirs(folder_name)
+    except OSError:
+        pass
