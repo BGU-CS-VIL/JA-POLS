@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="C__"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C__">
+				<Option output="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/bin/C__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include"/>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include/SESync"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="C__/fast">
+				<Option output="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/bin/C__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include"/>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include/SESync"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 C__/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/CMakeLists.txt">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include/SESync/RelativePoseMeasurement.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include/SESync/SESync.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include/SESync/SESyncProblem.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include/SESync/SESync_types.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include/SESync/SESync_utils.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/include/SESync/StiefelProduct.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/src/SESync.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/src/SESyncProblem.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/src/SESync_utils.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/SE-Sync/src/StiefelProduct.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/cmake-build-debug/CMakeCache.txt">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/examples/CMakeLists.txt">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/examples/main.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/SE-Sync-git/SE-Sync/C++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

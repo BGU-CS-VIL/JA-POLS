@@ -1,0 +1,3 @@
+/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/CMakeFiles/TGA_PCA.dir

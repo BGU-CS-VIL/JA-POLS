@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/extensions/grassmann_pca_benches.m
+
+/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/extensions/grassmann_pca_benches_plots.m
+
+/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/extensions/grassmann_pca_trimmed_benches.m
+
+/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/grassmannpca_matlab_performance_unit_tests.m
+
+/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/grassmannpca_matlab_unit_tests.m
+

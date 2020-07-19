@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libgrassmann_averages_examples.a  CMakeFiles/grassmann_averages_examples.dir/test/example_grassmannpca.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libgrassmann_averages_examples.a

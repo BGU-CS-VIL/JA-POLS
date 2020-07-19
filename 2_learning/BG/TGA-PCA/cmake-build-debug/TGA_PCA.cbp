@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TGA_PCA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TGA_PCA">
+				<Option output="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/TGA_PCA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/applications"/>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include"/>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include/private"/>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 TGA_PCA"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TGA_PCA/fast">
+				<Option output="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/TGA_PCA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/applications"/>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include"/>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include/private"/>
+					<Add directory="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 TGA_PCA/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/irita/Documents/Master/Research/Tracking/Moving\ Camera\ -\ code/Learn_Piecewise_Subspace/TGA-PCA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/applications/ndarray.h">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/applications/video_processing_empca.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/applications/video_processing_grassmann_pca.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/applications/video_processing_trimmed_grassmann_pca.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/extensions/grassmann_pca_benches.m">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/extensions/grassmann_pca_benches_plots.m">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/extensions/grassmann_pca_trimmed_benches.m">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/extensions/matlab.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include/grassmann_pca.hpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include/grassmann_pca_with_trimming.hpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include/ndarray.h">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include/private/boost_ublas_external_storage.hpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include/private/boost_ublas_row_iterator.hpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include/private/em_pca.hpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/include/private/utilities.hpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/src/grassmann_pca.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/example_grassmannpca.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/grassmannpca_matlab_performance_unit_tests.m">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/grassmannpca_matlab_unit_tests.m">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/test_grassmannpca.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/test_grassmannpca_trimming.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/test_grassmannpca_trimming_from_file.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/test_k_first.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/test_main.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/test_main.hpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/test_row_proxy.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/test/test_simplepca.cpp">
+			<Option target="TGA_PCA"/>
+		</Unit>
+		<Unit filename="/Users/irita/Documents/Master/Research/Tracking/Moving Camera - code/Learn_Piecewise_Subspace/TGA-PCA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

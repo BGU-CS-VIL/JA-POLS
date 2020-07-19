@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="C__" targetName="C__" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ec4e6aef-8aae-450f-bca7-5e7ef4f057a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-Sync/include/SESync/RelativePoseMeasurement.h" beforeDir="false" afterPath="$PROJECT_DIR$/SE-Sync/include/SESync/RelativePoseMeasurement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-Sync/include/SESync/SESync.h" beforeDir="false" afterPath="$PROJECT_DIR$/SE-Sync/include/SESync/SESync.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-Sync/include/SESync/SESyncProblem.h" beforeDir="false" afterPath="$PROJECT_DIR$/SE-Sync/include/SESync/SESyncProblem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-Sync/include/SESync/SESync_types.h" beforeDir="false" afterPath="$PROJECT_DIR$/SE-Sync/include/SESync/SESync_types.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-Sync/include/SESync/SESync_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/SE-Sync/include/SESync/SESync_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-Sync/include/SESync/StiefelProduct.h" beforeDir="false" afterPath="$PROJECT_DIR$/SE-Sync/include/SESync/StiefelProduct.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-Sync/src/SESync_utils.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SE-Sync/src/SESync_utils.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SE-Sync/src/StiefelProduct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SE-Sync/src/StiefelProduct.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MATLAB/SE-Sync/lib/load_g2o_data.m" beforeDir="false" afterPath="$PROJECT_DIR$/../MATLAB/SE-Sync/lib/load_g2o_data.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MATLAB/examples/main.m" beforeDir="false" afterPath="$PROJECT_DIR$/../MATLAB/examples/main.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CMAKE_CURRENT_SOURCE_DIR</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/examples/main.cpp" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/Eigen/SPQRSupport" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/Eigen/CholmodSupport" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/Spectra/MatOp/SparseSymMatProd.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/SESync/SESync.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/SESync/SESyncProblem.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/src/SESync_utils.cpp" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/Spectra/SymEigsSolver.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/Spectra/Util/TypeTraits.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/Spectra/Util/SimpleRandom.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/Spectra/LinAlg/UpperHessenbergQR.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/Spectra/LinAlg/TridiagEigen.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/Spectra/MatOp/DenseSymMatProd.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/SESync/RelativePoseMeasurement.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/SESync/SESync_types.h" />
+        <option value="$PROJECT_DIR$/SE-Sync/src/StiefelProduct.cpp" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/SESync/StiefelProduct.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/examples/CMakeLists.txt" />
+        <option value="/usr/local/include/eigen3/Eigen/CholmodSupport" />
+        <option value="$PROJECT_DIR$/SE-Sync/include/SESync/SESync_utils.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="977" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="C__" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C__" TARGET_NAME="C__" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C__" RUN_TARGET_NAME="C__">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec4e6aef-8aae-450f-bca7-5e7ef4f057a9" name="Default Changelist" comment="" />
+      <created>1546100677050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546100677050</updated>
+      <workItem from="1546100678301" duration="1656000" />
+      <workItem from="1546155338750" duration="223000" />
+      <workItem from="1546155563479" duration="7936000" />
+      <workItem from="1547540538698" duration="537000" />
+      <workItem from="1567877775128" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10408000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="977" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.42485875" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.3299435" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.3299435" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Eigen/SPQRSupport" />
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Eigen/src/CholmodSupport/CholmodSupport.h" />
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Eigen/CholmodSupport" />
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Spectra/MatOp/SparseSymMatProd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#327#355#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/SESync/SESyncProblem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Spectra/SymEigsSolver.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Spectra/Util/TypeTraits.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Spectra/Util/SimpleRandom.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Spectra/LinAlg/UpperHessenbergQR.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Spectra/LinAlg/TridiagEigen.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/Spectra/MatOp/DenseSymMatProd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/SESync/SESync_types.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/src/StiefelProduct.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/SESync/StiefelProduct.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/SESync/SESync.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#172#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/SPQRSupport">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#365#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/eigen3/Eigen/CholmodSupport">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/SESync/SESync_utils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#281#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/include/SESync/RelativePoseMeasurement.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#263#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/src/SESyncProblem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SE-Sync/src/SESync_utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="66" column="34" selection-start-line="66" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="e#853#883#0" expanded="true" />
+            <element signature="e#993#1008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
