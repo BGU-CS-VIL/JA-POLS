@@ -191,7 +191,7 @@ class GraphManager:
         panoramic_img = np.nanmedian(imgs_trans_all, axis=0) # nanmean
         fig1 = open_figure(1, 'Panoramic Image', (3, 2))
         PlotImages(1, 1, 1, 1, [panoramic_img], [''], 'gray', axis=False, colorbar=False)
-        fig1.savefig('SE/se_alignment_results/SE_Panorama.png', dpi=1000)
+        fig1.savefig(config.paths['my_path'] + '1_joint_alignment/SE/se_alignment_results/SE_Panorama.png', dpi=1000)
         plt.show()
 
     def prepare_data_for_STN(self, nparray_path):
