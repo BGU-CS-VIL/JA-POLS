@@ -10,8 +10,12 @@ class DataProvider:
 
     def __init__(self):
 
-        # create the data folder
+        # create the data folders
         makedir(config.paths['my_path'] + 'data/')
+        makedir(config.paths['my_path'] + '1_joint_alignment/SE/se_alignment_results/')
+        makedir(config.paths['my_path'] + '1_joint_alignment/STN/stn_alignment_results/')
+        makedir(config.paths['my_path'] + '1_joint_alignment/STN/model/')
+        makedir(config.paths['my_path'] + '1_joint_alignment/AFFINE/affine_alignment_results/')
 
         input_path = '../input/learning/'
         self.feed_path = "SE/tmp_data"
