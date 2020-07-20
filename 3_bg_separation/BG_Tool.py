@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 import os
 import numpy as np
 from utils.image_warping import warp_image
@@ -53,6 +56,7 @@ class BG_Tool:
         makedir(self.output_bg_path)
         makedir(self.output_fg_path)
         makedir(self.output_img_path)
+        makedir(self.mypath + '3_bg_separation/test_imgs_alignment/')
         self.fg_imgs = None
         self.bg_imgs = None
         self.img_orig = None
