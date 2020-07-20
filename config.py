@@ -57,9 +57,10 @@ pols = dict(
 regress_trans = dict(
     load_model = False, # 'False' when learning a model from scratch, 'True' when using a trained network's model
     gpu_num = 0, # number of gpu to use (in case there is more than one)
+
     model_name = 'googlenet',  # Models to choose from [googlenet, resnet, alexnet, vgg, squeezenet, densenet, inception]
     batch_size = 64,
-    num_epochs = 1,  #200
+    num_epochs = 200,
     learning_rate = 0.001,
     val_prct = 0.2,
 
