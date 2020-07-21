@@ -47,6 +47,9 @@ images = dict(
 )
 ```
 
+**All 3 modules should run from the main folder JA-POLS/**.
+
+
 ### Module 1: Joint Alignment
 <ins>Code</ins>:<br />
 Main function: *1_joint_alignment/main_joint_alignment.py*
