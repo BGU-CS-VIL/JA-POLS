@@ -2,6 +2,7 @@ import sys
 import torch
 import config
 sys.path.append('../2_learning/Alignment')
+sys.path.append('./2_learning/Alignment')
 from nets import initialize_model
 from data import get_datasets_for_test
 import train

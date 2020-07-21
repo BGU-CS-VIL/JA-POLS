@@ -1,5 +1,6 @@
 import sys
 sys.path.append('..')
+sys.path.append('.')
 
 from BG.Piecewise_Subspace import Piecewise_Subspace
 

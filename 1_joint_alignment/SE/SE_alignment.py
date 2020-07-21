@@ -1,5 +1,6 @@
 import sys
 sys.path.append('..')
+sys.path.append('.')
 
 import config
 from SE.data_provider import DataProvider
