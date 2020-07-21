@@ -7,11 +7,13 @@ from utils.Plots import open_figure, PlotImages
 
 
 def get_global_AFFINE():
-    imgs_big_embd = np.load('../data/imgs_big_embd.npy')
-    SE_trans = np.load('../data/SE_trans.npy')
-    AFFINE_residual = np.load('../data/AFFINE_residual.npy')
-    img_embd_sz_arr = np.load('../data/img_embd_sz.npy')
-    img_big_embd_sz_arr = np.load('../data/img_big_emb_sz.npy')
+
+    mypath = config.paths['my_path']
+    imgs_big_embd = np.load(mypath + 'data/imgs_big_embd.npy')
+    SE_trans = np.load(mypath + 'data/SE_trans.npy')
+    AFFINE_residual = np.load(mypath + 'data/AFFINE_residual.npy')
+    img_embd_sz_arr = np.load(mypath + 'data/img_embd_sz.npy')
+    img_big_embd_sz_arr = np.load(mypath + 'data/img_big_emb_sz.npy')
 
     #print('imgs_big_embd: ', imgs_big_embd.shape)
     #print('SE_trans: ', SE_trans.shape)
@@ -42,7 +44,7 @@ def get_global_AFFINE():
 
     # Save final transformations:
     final_trans = np.array(final_trans)
-    np.save("../data/final_AFFINE_trans.npy", final_trans)
+    np.save(mypath + 'data/final_AFFINE_trans.npy', final_trans)
 
 
 # Get two transformations in shape 2x3

@@ -17,8 +17,8 @@ class DataProvider:
         makedir(config.paths['my_path'] + '1_joint_alignment/STN/model/')
         makedir(config.paths['my_path'] + '1_joint_alignment/AFFINE/affine_alignment_results/')
 
-        input_path = '../input/learning/'
-        self.feed_path = "SE/tmp_data"
+        input_path = config.paths['my_path'] + 'input/learning/'
+        self.feed_path = config.paths['my_path'] + '1_joint_alignment/SE/tmp_data'
         makedir(self.feed_path)
         self.img_sz = config.images['img_sz']  # set "-1" in case we want the original img_sz.
 

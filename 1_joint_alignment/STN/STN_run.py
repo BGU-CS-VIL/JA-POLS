@@ -40,7 +40,7 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 mypath = config.paths['my_path']
 input_data_path = 'data/'
-model_path = 'STN/model/model.ckpt'
+model_path = mypath + '1_joint_alignment/STN/model/model.ckpt'
 
 mydevice = config.stn['device']
 load_model = config.stn['load_model']
