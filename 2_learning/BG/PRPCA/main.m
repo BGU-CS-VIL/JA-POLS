@@ -8,8 +8,8 @@ clear();
 height = 250;
 width = 420;
 
-prpca_path = strcat(pwd, '/BG/PRPCA/');
-addpath(strcat(pwd, '/BG/PRPCA/src/'));
+prpca_path = strcat(pwd, '/2_learning/BG/PRPCA/');
+addpath(strcat(pwd, '/2_learning/BG/PRPCA/src/'));
 
 % Load x_zeromean data:
 load x.mat x
