@@ -11,7 +11,7 @@ class DataProvider:
 
     def __init__(self):
         print('\nStart loading TEST data ...')
-        input_path = '../input/test/'
+        input_path = config.paths['my_path'] +   'input/test/'
         self.feed_path = 'tmp_data'
         makedir(self.feed_path)
         self.img_sz = config.images['img_sz']
