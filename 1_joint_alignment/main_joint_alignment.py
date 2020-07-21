@@ -15,6 +15,8 @@ def main():
     # Prepare estimated transformations (x_i, T^theta_i)
     get_global_AFFINE()
 
+    print('\nFinished Module 1.')
+
 if __name__ == '__main__':
     main()
 

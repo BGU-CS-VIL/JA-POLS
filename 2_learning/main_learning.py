@@ -11,6 +11,8 @@ def main():
     # learn alignment
     learn_alignment()
 
+    print('\nFinished Module 2.')
+
 
 if __name__ == '__main__':
     main()

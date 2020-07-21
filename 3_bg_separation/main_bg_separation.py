@@ -20,7 +20,7 @@ def main():
     # Create a video from all test images (bg and fg):
     BG.create_bg_fg_video()
 
-    print('\nFinish running BG tool.')
+    print('\nFinished Module 3.')
 
 if __name__ == '__main__':
     main()
