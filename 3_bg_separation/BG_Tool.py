@@ -110,7 +110,7 @@ class BG_Tool:
     def prepare_test_image_transformations_refined(self):
         print('\nPrepare all transformed test images (with refined theta)..')
         tic = time.time()
-        test_imgs_warped_before_refine = []
+        #test_imgs_warped_before_refine = []
         cnt = 0
 
         panoramic_img = np.load(self.data_path + 'panoramic_img.npy')
@@ -126,39 +126,34 @@ class BG_Tool:
                 T_ = self.test_trans_all[i]
 
             if config.bg_tool['only_refine']:
-                self.gap_refine = config.bg_tool['gap_refine']
                 T_ = np.eye(3)[0:2,0:3]
                 T_[0][2] = -(self.img_emb_sz[1]//2 - self.img_sz[1]//2)
                 T_[1][2] = -(self.img_emb_sz[0]//2 - self.img_sz[0]//2)
 
             T = np.reshape(T_, (2, 3))
 
-            height, width, _ = I.shape
-            x_warped, _ = warp_image(I, T, cv2.INTER_CUBIC)
-            test_imgs_warped_before_refine.append(x_warped)
-
-            # ------ Refine theta: use SIFT to warp x_warped towards X_mean_warped:
-            I_warped_tmp = self.embed_to_normal_sz_image(x_warped.copy())
-
-            start_x, start_y, end_x, end_y = self.get_enclosing_rectangle(I_warped_tmp.copy())
-            x0, y0, x1, y1 = self.add_refine_gap_to_enclosing_rectangle(start_x, start_y, end_x, end_y)
-            ref_image.fill(np.nan)
-            ref_image[y0:y1, x0:x1, :] = panoramic_img[y0:y1, x0:x1, :]
-
-            # refine the transformed test image:
-            if self.is_global_model:
-                H = np.eye(3)
-            else:
-                H = self.get_relative_trans(I_warped_tmp, ref_image)
-
-            height,width,_ = I_warped_tmp.shape
+            H, I_warped_tmp = self.warp_image_by_T_and_get_H(I, T, panoramic_img, ref_image, self.gap_refine)
 
             if H is not None:
-                x_warped_new = cv2.warpPerspective(I_warped_tmp,H,(width,height),flags=cv2.INTER_CUBIC)
+                x_warped_new = cv2.warpPerspective(I_warped_tmp,H,(I_warped_tmp.shape[1],I_warped_tmp.shape[0]),flags=cv2.INTER_CUBIC)
                 x_warped_new = np.abs(x_warped_new / np.nanmax(x_warped_new))
                 self.test_imgs_warped[cnt] = x_warped_new
                 self.test_trans_refine[cnt] = H
                 self.test_trans[cnt] = T
+            else:
+                T_ = np.eye(3)[0:2,0:3]
+                T_[0][2] = -(self.img_emb_sz[1]//2 - self.img_sz[1]//2)
+                T_[1][2] = -(self.img_emb_sz[0]//2 - self.img_sz[0]//2)
+                T = np.reshape(T_,(2,3))
+                H, I_warped_tmp = self.warp_image_by_T_and_get_H(I,T,panoramic_img,ref_image, 20000)
+
+                if H is not None:
+                    x_warped_new = cv2.warpPerspective(I_warped_tmp,H,(I_warped_tmp.shape[1],I_warped_tmp.shape[0]),flags=cv2.INTER_CUBIC)
+                    x_warped_new = np.abs(x_warped_new / np.nanmax(x_warped_new))
+                    self.test_imgs_warped[cnt] = x_warped_new
+                    self.test_trans_refine[cnt] = H
+                    self.test_trans[cnt] = T
+
 
             cnt = cnt + 1
 
@@ -181,6 +176,28 @@ class BG_Tool:
         # PlotImages(5,1,1,1,[panoramic2],[''],'gray',axis=False,colorbar=False)
         # plt.show()
         # fig5.savefig(self.mypath + '3_bg_separation/test_imgs_alignment/test_imgs_before_refine_panorama.png', dpi=1000)
+
+    def warp_image_by_T_and_get_H(self, I, T, panoramic_img, ref_image, gap_refine):
+
+        height,width,_ = I.shape
+        x_warped,_ = warp_image(I, T, cv2.INTER_CUBIC)
+        #test_imgs_warped_before_refine.append(x_warped)
+
+        # ------ Refine theta: use SIFT to warp x_warped towards X_mean_warped:
+        I_warped_tmp = self.embed_to_normal_sz_image(x_warped.copy())
+
+        start_x,start_y,end_x,end_y = self.get_enclosing_rectangle(I_warped_tmp.copy())
+        x0,y0,x1,y1 = self.add_refine_gap_to_enclosing_rectangle(start_x,start_y,end_x,end_y,gap_refine)
+        ref_image.fill(np.nan)
+        ref_image[y0:y1,x0:x1,:] = panoramic_img[y0:y1,x0:x1,:]
+
+        # refine the transformed test image:
+        if self.is_global_model:
+            H = np.eye(3)
+        else:
+            H = self.get_relative_trans(I_warped_tmp,ref_image)
+
+        return H, I_warped_tmp
 
     def run_bg_model(self):
         print('\nRun bg model..')
@@ -277,24 +294,24 @@ class BG_Tool:
 
         return start_x, start_y, end_x, end_y
 
-    def add_refine_gap_to_enclosing_rectangle(self, start_x, start_y, end_x, end_y):
-        if start_y - self.gap_refine >= 0:
-            y_0 = start_y - self.gap_refine
+    def add_refine_gap_to_enclosing_rectangle(self, start_x, start_y, end_x, end_y, gap_refine):
+        if start_y - gap_refine >= 0:
+            y_0 = start_y - gap_refine
         else:
             y_0 = 0
 
-        if end_y + self.gap_refine < self.img_emb_sz[0]:
-            y_1 = end_y + self.gap_refine
+        if end_y + gap_refine < self.img_emb_sz[0]:
+            y_1 = end_y + gap_refine
         else:
             y_1 = self.img_emb_sz[0]
 
-        if start_x - self.gap_refine >= 0:
-            x_0 = start_x - self.gap_refine
+        if start_x - gap_refine >= 0:
+            x_0 = start_x - gap_refine
         else:
             x_0 = 0
 
-        if end_x + self.gap_refine < self.img_emb_sz[1]:
-            x_1 = end_x + self.gap_refine
+        if end_x + gap_refine < self.img_emb_sz[1]:
+            x_1 = end_x + gap_refine
         else:
             x_1 = self.img_emb_sz[1]
 

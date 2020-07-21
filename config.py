@@ -97,7 +97,7 @@ bg_tool = dict(
 
     # refinement of the predicted alignment:
     only_refine = False,   # means that there is only SIFT refinement, where the image is placed in the center and warped towards the panorama. If this is True, a big 'gap_refine' is needed.
-    gap_refine = 100,  # in the refinement process, this is the number of pixels gap we look at in the panorama, around the enclosing square.
+    gap_refine = 300,  # in the refinement process, this is the number of pixels gap we look at in the panorama, around the enclosing square.
 
     overlap_percent = 0.7, # minimum % of overlapped pixels out of (window_sz*window_sz*3) needed to consider a subspace to be overlapped (used in "run_bg_model")
 

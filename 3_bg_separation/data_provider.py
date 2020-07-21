@@ -43,7 +43,7 @@ class DataProvider:
             I = cv2.imread(img_str)
             I = cv2.cvtColor(I, cv2.COLOR_BGR2RGB)
             I = cv2.resize(I.copy(), (self.img_sz[1], self.img_sz[0]))
-            self.test_imgs[j] = I   # np.abs(I / np.nanmax(I))
+            self.test_imgs[j] = np.abs(I / np.nanmax(I))
             j = j + 1
 
         print('Finished uploading test data:', self.test_imgs.shape)
