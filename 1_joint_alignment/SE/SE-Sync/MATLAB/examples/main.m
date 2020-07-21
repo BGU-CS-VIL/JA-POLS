@@ -11,7 +11,7 @@ close all;
 clc;
 
 %pwd
-sesync_path = strcat(pwd, '/SE/SE-Sync/');
+sesync_path = strcat(pwd, '/1_joint_alignment/SE/SE-Sync/');
 path_to_run_import = strcat(sesync_path, 'MATLAB/import_SE_Sync.m');
 
 
