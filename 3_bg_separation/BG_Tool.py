@@ -395,13 +395,13 @@ class BG_Tool:
 
     def create_bg_fg_video(self):
         print('\nCreate videos from bg, fg, and original test images:')
-        self.create_video(self.output_bg_path, 'bg_video')
-        self.create_video(self.output_fg_path, 'fg_video')
-        self.create_video(self.output_img_path, 'imgs_video')
+        self.create_video(self.output_bg_path, '/bg_video')
+        self.create_video(self.output_fg_path, '/fg_video')
+        self.create_video(self.output_img_path, '/imgs_video')
 
     def create_video(self, folder_name, video_name):
         image_folder = folder_name
-        video_name = video_name + '.avi'
+        video_name = folder_name + video_name + '.avi'
 
         images = [img for img in os.listdir(image_folder) if img.endswith('.png')]
         frame = cv2.imread(os.path.join(image_folder, images[0]))
