@@ -41,7 +41,7 @@ stn = dict(
 
 
 pols = dict(
-    method_type = 'TGA',  # choose from: [PCA / RPCA-CANDES / TGA / PRPCA]
+    method_type = 'PRPCA',  # choose from: [PCA / RPCA-CANDES / TGA / PRPCA]
 
     shift_sz = 40,  # stride used to split the big domain into local domains
     window_sz = (250, 420),  # window size used to split the big domain into local domains
