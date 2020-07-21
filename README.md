@@ -47,7 +47,7 @@ images = dict(
 )
 ```
 
-**All 3 modules should run from the main folder JA-POLS/**.
+**All 3 modules should run from the source folder JA-POLS/**.
 
 
 ### Module 1: Joint Alignment
