@@ -19,7 +19,7 @@ A detailed description of our method and more example results can be found here:
 ## Requirements
 - Python: most of the code runs in python using the following packages: numpy, matlab.engine, scipy, tensorflow, torch, openCV, imageio, scikit-image, and other common python packages.
 - MATLAB (for the SE-Sync part)
-- C++: in case you are choosing the TGA mathod for learning the local subspaces (see module 2 below), please follow the requirements [here](https://github.com/MPI-IS/Grassmann-Averages-PCA). All steps should be performed in the TGA folder: *2_learning\BG\TGA-PCA*.
+- C++: in case you are choosing the TGA mathod for learning the local subspaces (see module 2 below), please follow the [TGA requirements](https://github.com/MPI-IS/Grassmann-Averages-PCA). All steps should be performed in the TGA folder: *2_learning\BG\TGA-PCA*.
 
 
 **For a minimal working example, use the Tennis sequence (the input images are already located in the input folder in this repository)**.
