@@ -203,3 +203,18 @@ bg_tool = dict(
 )
 ```
 The rest of the parameters can (optionally) remain with the current configuration.
+
+
+## Copyright and License
+
+This software is released under the MIT License (included with the software). Note, however, that if you are using this code (and/or the results of running it) to support any form of publication (e.g., a book, a journal paper, a conference paper, a patent application, etc.) then we request you will cite our paper:  
+```
+ @inproceedings{chelly2020ja,
+  title={JA-POLS: a Moving-camera Background Model via Joint Alignment and Partially-overlapping Local Subspaces},
+  author={Chelly, Irit and Winter, Vlad and Litvak, Dor and Rosen, David and Freifeld, Oren},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12585--12594},
+  year={2020}
+}
+```
+
