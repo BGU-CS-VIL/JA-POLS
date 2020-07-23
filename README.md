@@ -11,10 +11,10 @@ JA-POLS is a novel 2D-based method for unsupervised learning of a moving-camera 
 <img src="https://github.com/itohamy/JA-POLS_v0/blob/master/tmp/tennis_gif.gif" alt="JA-POLS typical results" width="520" height="320">
 </p>
 
-A detailed description of our method and more example results can be found here:
-[paper](https://3d3cd9ad-88b3-4e3e-b64f-fb392ff4b6ea.filesusr.com/ugd/88bbac_80ebb886f20d43cdb2517074e7d22a81.pdf)
-[supplemental material](https://3d3cd9ad-88b3-4e3e-b64f-fb392ff4b6ea.filesusr.com/ugd/88bbac_6c675f8d71cb4676bf45da8e26d751fc.pdf)
-[Example results](https://drive.google.com/drive/u/0/folders/1fnME3gYM-WvwGps08tWT00ZT6VlWBxfz)
+A detailed description of our method and more example results can be found here:<br />
+[paper](https://3d3cd9ad-88b3-4e3e-b64f-fb392ff4b6ea.filesusr.com/ugd/88bbac_80ebb886f20d43cdb2517074e7d22a81.pdf)<br />
+[supplemental material](https://3d3cd9ad-88b3-4e3e-b64f-fb392ff4b6ea.filesusr.com/ugd/88bbac_6c675f8d71cb4676bf45da8e26d751fc.pdf)<br />
+[Example results](https://drive.google.com/drive/u/0/folders/1fnME3gYM-WvwGps08tWT00ZT6VlWBxfz)<br />
 
 ## Requirements
 - Python: most of the code runs in python using the following packages: numpy, matlab.engine, scipy, tensorflow, torch, openCV, imageio, scikit-image, and other common python packages.
