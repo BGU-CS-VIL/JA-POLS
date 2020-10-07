@@ -4,17 +4,22 @@
 
 **Authors:** Irit Chelly, Vlad Winter, Dor Litvak, David Rosen, and Oren Freifeld.
 
-This code repository corresponds to our CVPR-20 paper: **JA-POLS: a Moving-camera Background Model via Joint Alignment and Partially-overlapping Local Subspaces**.
+This code repository corresponds to our CVPR '20 paper: **JA-POLS: a Moving-camera Background Model via Joint Alignment and Partially-overlapping Local Subspaces**.
 JA-POLS is a novel 2D-based method for unsupervised learning of a moving-camera background model, which is highly scalable and allows for relatively-free camera motion.
 <br>
 <p align="center">
 <img src="https://github.com/itohamy/JA-POLS_v0/blob/master/tmp/tennis_gif.gif" alt="JA-POLS typical results" width="520" height="320">
 </p>
 
+A detailed description of our method and more example results can be found here:<br />
+[Paper](https://3d3cd9ad-88b3-4e3e-b64f-fb392ff4b6ea.filesusr.com/ugd/88bbac_80ebb886f20d43cdb2517074e7d22a81.pdf)<br />
+[Supplemental Material](https://3d3cd9ad-88b3-4e3e-b64f-fb392ff4b6ea.filesusr.com/ugd/88bbac_6c675f8d71cb4676bf45da8e26d751fc.pdf)<br />
+[Example Results](https://drive.google.com/drive/u/0/folders/1fnME3gYM-WvwGps08tWT00ZT6VlWBxfz)<br />
+
 ## Requirements
 - Python: most of the code runs in python using the following packages: numpy, matlab.engine, scipy, tensorflow, torch, openCV, imageio, scikit-image, and other common python packages.
 - MATLAB (for the SE-Sync part)
-- C++: in case you are choosing the TGA mathod for learning the local subspaces (see module 2 below), please follow the requirements [here](https://github.com/MPI-IS/Grassmann-Averages-PCA). All steps should be performed in the TGA folder: *2_learning\BG\TGA-PCA*.
+- C++: in case you are choosing the TGA mathod for learning the local subspaces (see module 2 below), please follow the [TGA requirements](https://github.com/MPI-IS/Grassmann-Averages-PCA). All steps should be performed in the TGA folder: *2_learning\BG\TGA-PCA*.
 
 
 **For a minimal working example, use the Tennis sequence (the input images are already located in the input folder in this repository)**.
@@ -203,3 +208,18 @@ bg_tool = dict(
 )
 ```
 The rest of the parameters can (optionally) remain with the current configuration.
+
+
+## Copyright and License
+
+This software is released under the MIT License (included with the software). Note, however, that if you are using this code (and/or the results of running it) to support any form of publication (e.g., a book, a journal paper, a conference paper, a patent application, etc.) then we request you will cite our paper:  
+```
+ @inproceedings{chelly2020ja,
+  title={JA-POLS: a Moving-camera Background Model via Joint Alignment and Partially-overlapping Local Subspaces},
+  author={Chelly, Irit and Winter, Vlad and Litvak, Dor and Rosen, David and Freifeld, Oren},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12585--12594},
+  year={2020}
+}
+```
+
