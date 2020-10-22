@@ -16,6 +16,9 @@ A detailed description of our method and more example results can be found here:
 [Supplemental Material](https://3d3cd9ad-88b3-4e3e-b64f-fb392ff4b6ea.filesusr.com/ugd/88bbac_6c675f8d71cb4676bf45da8e26d751fc.pdf)<br />
 [Example Results](https://drive.google.com/drive/u/0/folders/1fnME3gYM-WvwGps08tWT00ZT6VlWBxfz)<br />
 
+**Acknowledgements:**
+This work was partially funded by the Shulamit Aloni Scholarship from Israel's Ministry of Technology and Science, and by BGU's Hi-Tech Scholarship.
+
 ## Requirements
 - Python: most of the code runs in python using the following packages: numpy, matlab.engine, scipy, tensorflow, torch, openCV, imageio, scikit-image, and other common python packages.
 - MATLAB (for the SE-Sync part)
