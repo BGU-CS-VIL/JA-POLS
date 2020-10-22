@@ -16,7 +16,7 @@ A detailed description of our method and more example results can be found here:
 [Supplemental Material](https://3d3cd9ad-88b3-4e3e-b64f-fb392ff4b6ea.filesusr.com/ugd/88bbac_6c675f8d71cb4676bf45da8e26d751fc.pdf)<br />
 [Example Results](https://drive.google.com/drive/u/0/folders/1fnME3gYM-WvwGps08tWT00ZT6VlWBxfz)<br />
 
-**Acknowledgements:**
+**Acknowledgements:**<br />
 This work was partially funded by the Shulamit Aloni Scholarship from Israel's Ministry of Technology and Science, and by BGU's Hi-Tech Scholarship.
 
 ## Requirements
